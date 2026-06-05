@@ -104,7 +104,7 @@ jobs:
           tag_name: ${{ github.ref_name }}
           name: Release v${{ steps.version.outputs.VERSION }}
           body: |
-            # @nooma-tech/degit v${{ steps.version.outputs.VERSION }}
+            # @pentatonic-dev/degit v${{ steps.version.outputs.VERSION }}
 
             ${{ steps.changelog.outputs.CHANGELOG }}
 
@@ -112,12 +112,12 @@ jobs:
 
             Install directly from npm:
             ```bash
-            npm install @nooma-tech/degit@${{ steps.version.outputs.VERSION }}
+            npm install @pentatonic-dev/degit@${{ steps.version.outputs.VERSION }}
             ```
 
             Or install the latest version:
             ```bash
-            npm install @nooma-tech/degit
+            npm install @pentatonic-dev/degit
             ```
 
             ## What's Included
@@ -127,7 +127,7 @@ jobs:
             ## Usage
 
             ```bash
-            npx @nooma-tech/degit user/repo my-project
+            npx @pentatonic-dev/degit user/repo my-project
             ```
           draft: false
           prerelease: false

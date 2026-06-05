@@ -97,4 +97,4 @@ by whitespace (with quoting via `shell-quote`); shell operators (`;`, `|`, `&`,
 `>`, `<`, etc.) are rejected — use the object schema for anything beyond a flat
 command + arguments.
 
-See https://github.com/Nooma-Tech/degit for more information
+See https://github.com/PentatonicDev/degit for more information

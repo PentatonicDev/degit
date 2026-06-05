@@ -1,8 +1,8 @@
-# @nooma-tech/degit — straightforward project scaffolding
+# @pentatonic-dev/degit — straightforward project scaffolding
 
-[![CI](https://github.com/Nooma-Tech/degit/actions/workflows/ci.yml/badge.svg)](https://github.com/Nooma-Tech/degit/actions/workflows/ci.yml)
-[![npm package version](https://badgen.net/npm/v/@nooma-tech/degit)](https://npm.im/@nooma-tech/degit)
-[![install size](https://badgen.net/packagephobia/install/@nooma-tech/degit)](https://packagephobia.now.sh/result?p=@nooma-tech/degit)
+[![CI](https://github.com/PentatonicDev/degit/actions/workflows/ci.yml/badge.svg)](https://github.com/PentatonicDev/degit/actions/workflows/ci.yml)
+[![npm package version](https://badgen.net/npm/v/@pentatonic-dev/degit)](https://npm.im/@pentatonic-dev/degit)
+[![install size](https://badgen.net/packagephobia/install/@pentatonic-dev/degit)](https://packagephobia.now.sh/result?p=@pentatonic-dev/degit)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
@@ -17,7 +17,7 @@ _Requires Node 16 or above, because `async` and `await` are the cat's pyjamas_
 - 🔒 **Security Updates**: All dependencies updated to secure versions
 - 🚀 **Modern Node.js**: Updated to require Node 16+ with latest tooling
 - 🔧 **Build Improvements**: Enhanced build process and CI/CD pipelines
-- 📦 **NPM Organization**: Published under `@nooma-tech` scope
+- 📦 **NPM Organization**: Published under `@pentatonic-dev` scope
 - ✅ **GitHub Actions**: Modern CI/CD with automated releases
 - 🎯 **Template System**: Interactive prompts, variable substitution, and file operations
 - 🔐 **Enhanced Git Support**: SSH and HTTPS modes for private repositories
@@ -27,19 +27,19 @@ _Requires Node 16 or above, because `async` and `await` are the cat's pyjamas_
 
 ### Global Installation
 ```bash
-npm install -g @nooma-tech/degit
+npm install -g @pentatonic-dev/degit
 ```
 
 ### Use with npx (Recommended)
 ```bash
 # No installation required - always uses latest version
-npx @nooma-tech/degit user/repo my-project
+npx @pentatonic-dev/degit user/repo my-project
 
 # With options
-npx @nooma-tech/degit --mode=git-https user/private-repo my-project
+npx @pentatonic-dev/degit --mode=git-https user/private-repo my-project
 
 # Interactive template scaffolding
-npx @nooma-tech/degit Nooma-Tech/n8n-nodes-starter-kit my-n8n-node
+npx @pentatonic-dev/degit PentatonicDev/n8n-nodes-starter-kit my-n8n-node
 ```
 
 ### Original Package
@@ -53,13 +53,13 @@ The fastest way to use degit is with npx:
 
 ```bash
 # Clone a simple repository
-npx @nooma-tech/degit user/repo
+npx @pentatonic-dev/degit user/repo
 
 # Clone with interactive template processing
-npx @nooma-tech/degit Nooma-Tech/n8n-nodes-starter-kit my-new-node
+npx @pentatonic-dev/degit PentatonicDev/n8n-nodes-starter-kit my-new-node
 
 # Clone private repository via HTTPS
-npx @nooma-tech/degit --mode=git-https your-org/private-template my-project
+npx @pentatonic-dev/degit --mode=git-https your-org/private-template my-project
 ```
 
 ## Usage
@@ -177,7 +177,7 @@ A few salient differences:
 You can also use degit inside a Node script:
 
 ```js
-const degit = require('@nooma-tech/degit');
+const degit = require('@pentatonic-dev/degit');
 
 const emitter = degit('user/repo', {
 	cache: true,

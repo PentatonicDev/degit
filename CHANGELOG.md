@@ -1,4 +1,4 @@
-# @nooma-tech/degit changelog
+# @pentatonic-dev/degit changelog
 
 ## 1.5.1
 
@@ -97,7 +97,7 @@
 
 ## 1.0.0
 
-* **BREAKING**: Scoped package name changed to `@nooma-tech/degit`
+* **BREAKING**: Scoped package name changed to `@pentatonic-dev/degit`
 * **BREAKING**: Minimum Node.js version increased to 16.0.0
 * Security updates for all dependencies:
   * Fixed vulnerabilities in minimatch, rollup, tar, mocha dependencies

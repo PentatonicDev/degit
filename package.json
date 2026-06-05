@@ -1,5 +1,5 @@
 {
-	"name": "@nooma-tech/degit",
+	"name": "@pentatonic-dev/degit",
 	"version": "1.5.1",
 	"engines": {
 		"node": ">=22.0.0"
@@ -19,7 +19,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Nooma-Tech/degit.git"
+		"url": "git+https://github.com/PentatonicDev/degit.git"
 	},
 	"keywords": [
 		"scaffolding",
@@ -28,14 +28,14 @@
 	],
 	"author": "Rich Harris",
 	"contributors": [
-		"Nooma Tech",
+		"Pentatonic",
 		"Jaeyoung Yun (https://github.com/JAE0Y2N) — security disclosure of shell injection in src argument (1.5.0)"
 	],
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/Nooma-Tech/degit/issues"
+		"url": "https://github.com/PentatonicDev/degit/issues"
 	},
-	"homepage": "https://github.com/Nooma-Tech/degit#readme",
+	"homepage": "https://github.com/PentatonicDev/degit#readme",
 	"publishConfig": {
 		"access": "public",
 		"registry": "https://registry.npmjs.org/"

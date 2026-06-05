@@ -32,7 +32,7 @@ const showHelp = () => {
 		process.stdout.write(`\n${formatHelp(help)}\n`);
 	} catch {
 		const fallbackHelp = `
-# @nooma-tech/degit
+# @pentatonic-dev/degit
 
 Usage: degit <src>[#ref] [<dest>] [options]
 
@@ -53,11 +53,11 @@ Template Actions:
 - remove: Delete files/directories
 
 Examples:
-  npx @nooma-tech/degit user/repo
-  npx @nooma-tech/degit --mode=git-https user/private-repo
-  npx @nooma-tech/degit template-repo my-project
+  npx @pentatonic-dev/degit user/repo
+  npx @pentatonic-dev/degit --mode=git-https user/private-repo
+  npx @pentatonic-dev/degit template-repo my-project
 
-See https://github.com/Nooma-Tech/degit for full documentation
+See https://github.com/PentatonicDev/degit for full documentation
 		`;
 		process.stdout.write(`\n${formatHelp(fallbackHelp)}\n`);
 	}
